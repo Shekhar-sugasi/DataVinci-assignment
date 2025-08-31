@@ -1,5 +1,6 @@
 .main-container {
   display: flex;
+  height: 2200px;
   justify-content: center;
   opacity: 1;
   gap: 40px;
