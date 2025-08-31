@@ -1,0 +1,76 @@
+.main-images-container {
+  width: 585px;
+}
+
+.main-slide-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 585px;
+  height: 617px;
+}
+
+.main-image {
+  position: absolute;
+  z-index: 2;
+}
+
+.left-arrow {
+  height: 40px;
+  width: 18px;
+  opacity: 35%;
+  position: absolute;
+  left: 20px;
+  z-index: 1;
+}
+
+.right-arrow {
+  height: 40px;
+  width: 18px;
+  opacity: 35%;
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+  color: black;
+  filter: brightness(30%);
+}
+
+.small-images-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.small-images {
+  width: 287.5px;
+  height: 200px;
+  opacity: 1;
+}
+
+.person-img {
+  width: 585px;
+  height: 300px;
+  opacity: 1;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 1024px) {
+  .main-images-container {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-images-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-images-container {
+    max-width: 100%;
+  }
+}

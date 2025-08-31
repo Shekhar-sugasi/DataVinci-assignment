@@ -1,0 +1,97 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 14px;
+  width: 100%;
+  max-width: 1440px;
+  position: relative;
+  z-index: 100;
+  background-color: #fbf9f6;
+}
+
+.newest-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.shop-about {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  gap: 50px;
+}
+
+.nav-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+}
+
+.navbar-question {
+  border-radius: 50px;
+  border: 1px solid black;
+  height: 40px;
+  width: 252px;
+  padding-top: 12px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.nav-logo {
+  height: 102px;
+  width: 215px;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    width: 100%;
+    max-width: 1024px;
+    font-size: 16px;
+    padding: 12px;
+    gap: 20px;
+  }
+
+  .shop-about {
+    gap: 30px;
+  }
+
+  .nav-logo {
+    height: 90px;
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 10px;
+  }
+
+  .navbar-question {
+    display: none;
+  }
+
+  .shop-about {
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-logo {
+    height: 70px;
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-logo {
+    height: 60px;
+  }
+}

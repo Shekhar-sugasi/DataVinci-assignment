@@ -1,0 +1,19 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  gap: 40px;
+  background-color: #fbf9f6;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+}

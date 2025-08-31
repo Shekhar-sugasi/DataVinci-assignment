@@ -1,0 +1,10 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+}
+
+.page-wrapper {
+  width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
